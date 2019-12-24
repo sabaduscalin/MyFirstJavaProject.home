@@ -14,9 +14,9 @@ public class Main {
             int sum = a + b;
             System.out.println(sum);
             //3. Printati rezultatul impartirii a doua numere
-            int x = 21;
-            int y = 3;
-            int tot = x / y;
+            float x= 21;
+            int y = 4;
+            float tot = x / y;
             System.out.println(tot);
             // Printati rezultatul urmatoarelor operatiuni:
             //
@@ -30,7 +30,7 @@ public class Main {
             int w = 55;
             int q = 9;
             int cat = w + q;
-            System.out.println(cat % +q);
+            System.out.println(cat%+q);
             //c. 20 + -3*5 / 8
             int t = 20;
             int u = -3;
@@ -42,8 +42,10 @@ public class Main {
             int m = 15;
             int n = 3;
             int v = 2;
-            int suma = i + m / n * v - o % +n;
+           int suma = (i + m / n * v - o % +n);
             System.out.println(suma);
+
+
         }
 
 
