@@ -14,7 +14,7 @@ public class Main {
             int sum = a + b;
             System.out.println(sum);
             //3. Printati rezultatul impartirii a doua numere
-            float x= 21;
+            float x = 21;
             int y = 4;
             float tot = x / y;
             System.out.println(tot);
@@ -30,7 +30,7 @@ public class Main {
             int w = 55;
             int q = 9;
             int cat = w + q;
-            int suma = cat %+ q;
+            int suma = cat % +q;
             System.out.println(suma);
             //c. 20 + -3*5 / 8
             int t = 20;
@@ -43,13 +43,28 @@ public class Main {
             int m = 15;
             int n = 3;
             int v = 2;
-           int cant = (i + m / n * v - o % +n);
+            int cant = (i + m / n * v - o % +n);
             System.out.println(cant);
 
+            int l = 1;
+            int k = 2;
+            boolean j = l < k;
+            System.out.println(j);
+            float h = 10000000;
+            float g = h + k;
+            boolean p = g > k;
+            System.out.println(h);
+            System.out.println(k);
+            System.out.println(p);
+
+            for (int we = 0; we < 5; we++) {
+                System.out.println("printeaza de 5 ori");
+            }
+//Afisaza numerele de la 1 la 10 pe rand diferit
+            for (int we = 1; we <= 10; we++) {
+                System.out.println(we);
+            }
 
         }
-
-
     }
-
 }
